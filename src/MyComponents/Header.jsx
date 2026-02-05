@@ -35,7 +35,7 @@ function Header(props) {
             </li>
           </ul>
 
-          {/* ✅ CONDITIONAL RENDERING */}
+          
           {props.searchBar && (
             <form className="d-flex" role="search">
               <input
